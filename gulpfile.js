@@ -20,7 +20,7 @@ const isSync = (process.argv.includes("--sync"));
 const paths = {
     src: {
         html: `src/index.html`,
-        styles: `src/scss/**/*.scss`,
+        styles: `src/styles/**/*.scss`,
         img: `src/images/**/*`,
         scripts: `src/scripts/**/*.js`
     },
